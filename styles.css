@@ -1,0 +1,86 @@
+
+
+article {
+    margin: auto;
+    padding: 20;
+    border: 3;
+    border-style:inset;
+    border-color:green;
+    text-align: center;
+    width: 75%;
+    
+
+}
+
+body {
+    background-image: url("Images/ramportal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover, auto;
+
+}
+
+div {
+    
+    
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+   
+    font-family: Verdana;
+    display: inline-block;
+    
+
+}
+
+header {
+	background-color: rgba(56, 220, 74, 0.80);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px, solid;
+    border-color: rgba(92, 210, 119, 0.75);
+    border-width: 2;
+    
+}
+
+#Morty{
+    border-radius: 50%;
+    margin:auto;
+
+    
+}
+
+p {
+    background-color: rgba(46, 204, 64, 0.65);
+    
+    
+}
+
+#Rick {
+    transform: scaleX(-1);
+    
+    
+}
+
+span {
+    color: rgb(255, 0, 0);
+    
+}
+
+#speach{
+    font-size: 1em
+    
+}
+#hook {
+    font-size: 2em
+
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
